@@ -31,6 +31,10 @@ print("Expected output: 25, Boston")
 print()
 
 # Write your code here:
+age = 25
+city = 'boston'
+print(age)
+print(city)
 
 
 
@@ -44,8 +48,11 @@ print("Assign them appropriate values and print each one on a separate line.")
 print()
 
 # Write your code here:
+first_name = 'Mingyuan'
+last_name = 'Xin'
+student_id = 12345678
 
-
+print('\n',first_name,'\n',last_name,'\n',student_id)
 
 
 print("=" * 30)
@@ -58,7 +65,9 @@ print("Expected output: 68")
 print()
 
 # Write your code here:
-
+temperature = 72
+temperature = 68
+print(temperature)
 
 
 
@@ -80,6 +89,15 @@ print("Expected output: 19, 11, 60, 3.75, 3")
 print()
 
 # Write your code here:
+a= 15
+b= 4
+sum = a+b
+diff = a-b
+pro = a*b
+quetient = a/b
+
+rem =a % b
+print(sum,diff,pro,quetient)
 
 
 
@@ -94,7 +112,8 @@ print("Expected output: 96")
 print()
 
 # Write your code here:
-
+area = 12*8
+print(area)
 
 
 
@@ -108,7 +127,8 @@ print("Expected output: 11.03")
 print()
 
 # Write your code here:
-
+money = 50-3*12.99
+print(money)
 
 
 
@@ -122,6 +142,8 @@ print("Expected output: 88.0")
 print()
 
 # Write your code here:
+average =  (85+92+78+96+89)/5
+print(average)
 
 
 
@@ -141,7 +163,9 @@ print()
 
 # Write your code here:
 
-
+first_name = "Mingyuan"
+last_name = "Xin"
+print(first_name,"",last_name)
 
 
 print("=" * 30)
@@ -155,7 +179,10 @@ print()
 
 # Write your code here:
 
+name = 'Sarah'
+age = 20
 
+print(f"Hello {name},you are {age}year's old")
 
 
 print("=" * 30)
@@ -168,6 +195,11 @@ print("Example: 'The book To Kill a Mockingbird was written by Harper Lee.'")
 print()
 
 # Write your code here:
+title = "To Kill a Mockingbird"
+author = "Harper Lee"
+
+print(f"The book {title} was written by {author}.")
+
 
 
 
@@ -188,7 +220,10 @@ print("Example: '24 + 6 = 30'")
 print()
 
 # Write your code here:
+num1 = 24
+num2 = 6
 
+print(f'the sum is {num1 + num2}')
 
 
 
@@ -206,6 +241,13 @@ print()
 
 # Write your code here:
 
+bill = 45.5
+percentage = 0.18
+tip  = bill*percentage
+
+total = tip + bill
+print(f'Tip:{tip},total:{total}')
+
 
 
 
@@ -222,8 +264,12 @@ print("Format: 'Student: Alex Johnson | Scores: 87, 92, 85 | Average: 88.0'")
 print()
 
 # Write your code here:
-
-
+student = 'Alex Johnson'
+sc1 = 87
+sc2 = 92
+sc3 = 85
+average =  (sc1+sc2+sc3)/3
+print(f'Student: {student} | Scores: {sc1}, {sc2}, {sc3} | Average: {average}')
 
 
 print("=" * 30)
@@ -239,6 +285,20 @@ print("- Print a formatted receipt")
 print()
 
 # Write your code here:
+apples = 3.99
+bread = 2.50
+milk = 4.25
+
+subtotal = apples + bread + milk
+tax = subtotal * 0.085
+total = subtotal + tax
+
+print("Apples: $", apples)
+print("Bread:  $", bread)
+print("Milk:   $", milk)
+print("Subtotal:", round(subtotal, 2))
+print("Tax:", round(tax, 2))
+print("Total:", round(total, 2))
 
 
 
@@ -261,6 +321,10 @@ print()
 # Write your code here:
 
 
+fahrenheit = 75
+celsius = (fahrenheit - 32) * 5 / 9
+print(f"{fahrenheit}°F is equal to {celsius}°C")
+
 
 
 print("=" * 30)
@@ -275,6 +339,12 @@ print("Expected: 1 hours, 4 minutes, 7 seconds")
 print()
 
 # Write your code here:
+seconds = 3847
+hours = seconds // 3600
+minutes = (seconds % 3600) // 60
+secs = seconds % 60
+
+print(f"{hours} hours, {minutes} minutes, {secs} seconds")
 
 
 
@@ -290,7 +360,13 @@ print("Be creative with your story structure!")
 print()
 
 # Write your code here:
+adjective = "funny"
+noun = "dog"
+verb = "dance"
+place = "park"
+number = 3
 
+print(f"One {adjective} {noun} decided to {verb} at the {place} for {number} hours nonstop!")
 
 
 
